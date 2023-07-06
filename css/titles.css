@@ -1,0 +1,40 @@
+.title {
+  color: #744e4e;
+  font-size: 52px;
+  max-width: 400px;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.subtitle {
+  color: #744e4e;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 100;
+  letter-spacing: 8px;
+  margin: 0px 0px 12px 0px;
+}
+
+.slogan{
+  letter-spacing: 5px;
+  font-size: 20px;
+  margin: 0px 0px 12px 0px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 36px;
+    max-width: 300px;
+  }
+  .subtitle{
+    font-size: 16px;
+    max-width: 300px;
+  }
+  .slogan{
+    font-size: 16px;
+  }
+}
